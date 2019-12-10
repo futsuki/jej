@@ -44,7 +44,7 @@
 
 ## Complex version spec
 ```JSON
-// Same as before JEJ by complex version
+// Same JEJ as before with complex version
 [
   ["set", "hoge.fuga", 20],
   ["set", "hoge.list[0]", "moddedItem1"],
