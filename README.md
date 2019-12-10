@@ -9,7 +9,8 @@ Spec
     "list": ["item1", "item2"]
   },
   "foo": 30,
-  "arr": [1,2,3]
+  "arr": [1,2,3],
+  "obj": {"a": 1, "b": 2, "c": 3}
 }
 ```
 # *
@@ -20,7 +21,8 @@ Spec
   "hoge.list[0]": "moddedItem1",
   "hoge.list[2]": "addedItem3",
   "arr[0]": 100,
-  "newKey": {"anykey": "anyvalue"}
+  "newKey": {"anykey": "anyvalue"},
+  "obj": {"all": "replaced"}
 }
 ```
 # =
@@ -33,7 +35,8 @@ Spec
   },
   "foo": 30,
   "arr": [100,2,3],
-  "newKey": {"anykey": "anyvalue"}
+  "newKey": {"anykey": "anyvalue"},
+  "obj": {"all": "replaced"}
 }
 ```
 
