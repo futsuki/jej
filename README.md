@@ -19,7 +19,7 @@ Spec
   "hoge.fuga": 20,
   "hoge.list[0]": "moddedItem1",
   "hoge.list[2]": "addedItem3",
-  "[0]": 100,
+  "arr[0]": 100,
   "newKey": {"anykey": "anyvalue"}
 }
 ```
