@@ -1,6 +1,17 @@
 # JSON edits JSON
 ## Simple version spec
-
+```JSON
+// JEJ JSON
+{
+  "hoge.fuga": 20,
+  "hoge.list[0]": "moddedItem1",
+  "hoge.list[2]": "addedItem3",
+  "arr[0]": 100,
+  "newKey": {"anykey": "anyvalue"},
+  "obj": {"all": "replaced"}
+}
+```
+# *
 ```JSON
 // Source JSON
 {
@@ -12,18 +23,6 @@
   "foo": 30,
   "arr": [1,2,3],
   "obj": {"a": 1, "b": 2, "c": 3}
-}
-```
-# *
-```JSON
-// JEJ JSON
-{
-  "hoge.fuga": 20,
-  "hoge.list[0]": "moddedItem1",
-  "hoge.list[2]": "addedItem3",
-  "arr[0]": 100,
-  "newKey": {"anykey": "anyvalue"},
-  "obj": {"all": "replaced"}
 }
 ```
 # =
